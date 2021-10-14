@@ -1,7 +1,7 @@
 <a href="https://github.com/ZX-Inc/zxipdb-php/actions"><img src="https://img.shields.io/github/workflow/status/ZX-Inc/zxipdb-php/Unit%20Test%20by%20PHPUnit" alt="Build Status"></a>
-<a href="https://packagist.org/packages/ZX-Inc/zxipdb-php"><img src="https://img.shields.io/packagist/dt/zx-inc/zxipdb" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/ZX-Inc/zxipdb-php"><img src="https://img.shields.io/packagist/v/ZX-Inc/zxipdb" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/ZX-Inc/zxipdb-php"><img src="https://img.shields.io/packagist/l/ZX-Inc/zxipdb" alt="License"></a>
+<a href="https://packagist.org/packages/zx-inc/zxipdb"><img src="https://img.shields.io/packagist/dt/zx-inc/zxipdb" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/zx-inc/zxipdb"><img src="https://img.shields.io/packagist/v/ZX-Inc/zxipdb" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/zx-inc/zxipdb"><img src="https://img.shields.io/packagist/l/ZX-Inc/zxipdb" alt="License"></a>
 <a href="https://www.php.net"><img src="https://img.shields.io/badge/php-%3E%3D%205.6-8892BF.svg?style=flat-square" alt="PHP Version >= 5.6"></a>
 
 
