@@ -31,7 +31,7 @@ jobs:
           chmod +x /usr/local/bin/composer
 
       - name: Install php library
-        run: php vendor/bin/phpunit
+        run: composer install
 
       - name: PHP Unit Test
         run: php vendor/bin/phpunit
