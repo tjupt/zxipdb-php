@@ -2,28 +2,36 @@ name: Unit Test by PHPUnit
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, develop ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, develop ]
 
 jobs:
-  build:
+  container:
+    name: Docker ${{ matrix.php }}
     runs-on: ${{ matrix.operating-system }}
     strategy:
       matrix:
-        operating-system: ['ubuntu-latest']
-        php: ['5.6', '7.0', '7.1', '7.2', '7.3', '7.4', '8.0']
-    name: PHP ${{ matrix.php }}
+        operating-system: [ ubuntu-latest ]
+        php: [ '5.6.40-zts-alpine', '7.0.33-zts-alpine', '7.1.33-zts-alpine', '7.2.34-zts-alpine', '7.3.32-zts-alpine', '7.4.25-zts-alpine', '8.0.12-alpine' ]
+    container:
+      image: docker://php:${{ matrix.php }}
+      credentials:
+        username: ${{ secrets.DOCKER_HUB_USERNAME }}
+        password: ${{ secrets.DOCKER_HUB_PASSWORD }}
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@master
 
-      - name: Setup PHP
-        uses: nanasess/setup-php@master
-        with:
-          php-version: ${{ matrix.php }}
+      - name: Install wget
+        run: apk add wget
 
-      - name: Install dependencies
-        run: composer install
+      - name: Install composer bin
+        run: |
+          wget -O /usr/local/bin/composer https://mirrors.aliyun.com/composer/composer.phar
+          chmod +x /usr/local/bin/composer
 
-      - name: Unit Test
-        run: ./vendor/bin/phpunit
+      - name: Install php library
+        run: php vendor/bin/phpunit
+
+      - name: PHP Unit Test
+        run: php vendor/bin/phpunit
