@@ -8,10 +8,10 @@
 ## IPv4/IPv6 offline address database.IPv4/IPv6双栈地址离线数据库。IPv4 by 纯真网络，IPv6 by ZX Inc.
 ##### Being updating every <font color=#FF0000 size=36>5</font> days 每<font color=#FF0000 size=36>5</font>天更新一次
 
-### IPv4 address locations by 纯真网络。地址库内容归纯真网络版权所有，商用前请获取商用授权。
+### IPv4 address locations by 纯真网络。地址库版权归RTBAsia.com所有，商用前请获取商用授权。
 database updated at <font color=#FF0000 size=36>2021-12-01</font> with <font color=#FF0000 size=36>529161</font> records
 
-### IPv6 address locations by Zx Inc. 地址库内容归ZX Inc.版权所有，商用前请获取商用授权。
+### IPv6 address locations by Zx Inc. 地址库版权归ZX Inc.所有，商用前请获取商用授权。
 database updated at <font color=#FF0000 size=36>2021-07-26</font> with <font color=#FF0000 size=36>178724</font> records
 
 ### Usage/使用方法
