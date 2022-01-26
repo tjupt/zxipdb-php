@@ -9,7 +9,7 @@
 ##### Being updating every <font color=#FF0000 size=36>5</font> days 每<font color=#FF0000 size=36>5</font>天更新一次
 
 ### IPv4 address locations by 纯真网络。
-database updated at <font color=#FF0000 size=36>2022-01-19</font> with <font color=#FF0000 size=36>529502</font> records
+database updated at <font color=#FF0000 size=36>2022-01-26</font> with <font color=#FF0000 size=36>529543</font> records
 ##### 地址库版权归上海腾徽软件科技有限公司所有，商用前请获取商用授权。
 ##### 离线地址库预计不再更新，请购买API纯真数据库 [纯真IP - 阿里云市场](https://market.aliyun.com/products/57002002/cmapi00046276.html)，如有疑问加QQ群 482139657
 
